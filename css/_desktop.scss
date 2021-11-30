@@ -1,0 +1,307 @@
+body{
+    header{
+        h1{
+            font-size: 9rem;
+            
+        }
+        .kontakt{
+            font-size: 6rem;
+        }
+    }
+    main{
+        .cv-pic{
+            margin-top: 10%;
+        }
+        .front-page-triangl-graphic{
+
+            .front-page-heading{
+                font-size: 6rem;
+
+            }
+            .front-page-text{
+                font-size: 3.5rem;
+            }
+            .triangle{
+                height: 400px;
+                width: 400px;
+            }
+        }
+
+        .om-article-wrapper{
+            article{
+                width: 45%;
+            }
+        }
+
+        .cv-wrapper{
+            .education, .experience, .skills {
+                width: 45%;
+            }
+        }
+    }
+    .computer{
+        height: 250px;
+        width: 270px;
+    }
+
+    .sun{
+        height: 400px;
+        width: 400px;
+        top: 21%;
+    }
+    @keyframes line-1 {
+            
+        from{ 
+            transform: translateY(0) scaleY(5);  
+            opacity: 1; 
+        }
+        to{ 
+            transform: translateY(-200px) scaleY(.2);  
+            opacity: 0; 
+        }
+        50%{
+            opacity: .5;
+        }
+    }
+    
+    @keyframes line-2 {
+        from{ 
+            transform: translateY(0) scaleY(5);  
+            opacity: 1; 
+        }
+        to{ 
+            transform: translateY(-200px) scaleY(.2);  
+            opacity: 0; 
+        }
+        50%{
+            opacity: .5;
+        }
+    }
+    
+    @keyframes line-3 {
+        from{ 
+            transform: translateY(0) scaleY(5);  
+            opacity: 1; 
+        }
+        to{ 
+            transform: translateY(-200px) scaleY(.2);  
+            opacity: 0; 
+        }
+        50%{
+            opacity: .5;
+        }
+    }
+    
+    @keyframes line-4 {
+        from{ 
+            transform: translateY(0) scaleY(5);  
+            opacity: 1; 
+        }
+        to{ 
+            transform: translateY(-200px) scaleY(.2);  
+            opacity: 0; 
+        }
+        50%{
+            opacity: .5;
+        }
+    }
+    
+    @keyframes line-5 {
+        from{ 
+            transform: translateY(0) scaleY(5);  
+            opacity: 1; 
+        }
+        to{ 
+            transform: translateY(-200px) scaleY(.2);  
+            opacity: 0; 
+        }
+        50%{
+            opacity: .5;
+        }
+    }
+
+    .background-img{
+        background-size: 9% 9%, 3% 3%;
+    }
+    @keyframes moving-grid {
+        0% {
+            transform: perspective(50vh) rotateX(60deg) translateZ(10px)
+            translateY(0%);
+        }
+        100% {
+            transform: perspective(50vh) rotateX(60deg) translateZ(10px)
+            translateY(9%);
+        }
+    }
+    #hamburger-front-page {       
+        .buttonLine, .buttonMiddleLine{
+            display: none;
+
+        }
+    }
+    
+     
+
+}
+
+.menu {
+    nav{
+        display: none;        
+    }
+} 
+
+.menu-front-page{
+    nav {
+        display: block;
+        z-index: 5;   
+        position: absolute;
+
+        ul {           
+            
+            padding-left: 70px;
+            padding-top: 40px;
+            height: 100vh;
+            margin-top: 28px;
+            margin-left: 48px;
+            width: 0;
+            height: 0;
+            
+            li {
+                list-style: none;
+                transform: rotate(357deg);  
+                margin-bottom: 1.5em;
+                width: fit-content;        
+
+                a {
+                    font-family: 'Lazer84', sans-serif;
+                    color: #e20094;
+                    font-size: 5rem;                
+                    text-decoration: none;
+                    -webkit-text-stroke: 1px rgb(53, 1, 50);               
+                    text-shadow: 0.01em 0.01em  0.01em rgb(0, 140, 255),               
+                                0.02em 0.02em  0.02em rgb(0, 120, 255),                             
+                                0.03em 0.03em 0.02em rgb(0, 100, 255),                
+                                0.04em 0.04em 0.02em  rgb(0, 80, 255),
+                                0.05em 0.05em 0.02em  rgb(0, 60, 255),
+                                0.06em 0.06em  rgb(0, 40, 255); 
+                                
+                    position: relative;
+                    font-weight: 500;                
+                    letter-spacing: 0.15em;
+                    
+                    animation: text-glow 5s linear infinite;
+                    animation-direction: alternate;
+
+                    .a {
+                        margin-left: -0.28em;
+                        margin-right: 0.05em;
+                    }
+                    
+                    .t {
+                        margin-left: 0.13em;
+                        margin-right: -0.10em;
+                    }
+                }
+
+                @keyframes text-glow {
+                    from {
+                        filter: drop-shadow(0 0 0.35em rgba(231, 21, 91, 0.1));
+                        filter: drop-shadow(0 0 0.30em rgba(231, 21, 91, 0.2));  
+                        filter: drop-shadow(0 0 0.25em rgba(231, 21, 119, 0.3));
+                        filter: drop-shadow(0 0 0.15em rgba(231, 21, 91, 0.4)); 
+                        filter: drop-shadow(0 0 0.05em rgba(248, 21, 116, 0.5));
+                        
+                    }
+                
+                    to {
+                        filter: drop-shadow(0 0 0.95em rgba(250, 9, 121, 0.5)); 
+                        filter: drop-shadow(0 0 0.75em rgba(250, 9, 121, 0.6)); 
+                        filter: drop-shadow(0 0 0.55em rgba(255, 19, 110, 0.7));
+                        filter: drop-shadow(0 0 0.45em rgba(250, 9, 121, 0.8));          
+                        filter: drop-shadow(0 0 0.35em rgba(248, 21, 97, 0.9));
+                    }
+                }
+
+                .hem::after {
+                    content: 'hem';
+                    position: absolute;
+                    top: 0;
+                    left: 0; 
+                    display: none;
+                }
+
+                .om::after {
+                    content: 'om';
+                    position: absolute;
+                    top: 0;
+                    left: 0; 
+                    display: none;
+                }
+
+                .cv::after {
+                    content: 'cv';
+                    position: absolute;
+                    top: 0;
+                    left: 0; 
+                    display: none;
+                }
+
+                .kontakt::after {
+                    content: 'kontakt';
+                    position: absolute;
+                    top: 0;
+                    left: 0; 
+                    display: none;
+                }
+
+                a:hover::after, a:focus::after {
+                    animation: glitched 5000ms linear infinite;
+                    display: inline;
+                    -webkit-text-stroke: 1px rgba(53, 1, 50, 0);                
+                    opacity: 0.6;
+                    color: rgb(168, 21, 117);
+                    
+                }
+
+                @keyframes glitched {                                            
+                    0% { clip-path: polygon(0 0, 100% 0, 100% 10%, 0 10%); transform: translateX(2px);  }
+                    5% { clip-path: polygon(0 10%, 100% 10%, 100% 20%, 0 20%); transform: translateX(4px); }
+                    10% { clip-path: polygon(0 20%, 100% 20%, 100% 30%, 0 30%); transform: translateX(2px); }
+                    15% { clip-path: polygon(0 30%, 100% 30%, 100% 40%, 0 40%); transform: translate(3px, 4px); }
+                    20% { clip-path: polygon(0 40%, 100% 40%, 100% 50%, 0 50%); transform: translateX(1px); }
+                    21% { clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%); transform:  translate(-5px, -10px);}  
+                    29% { clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%); transform:  translate(5px, 10px);}              
+                    30% { clip-path: polygon(0 50%, 100% 50%, 100% 60%, 0 60%); transform: translateX(-5px); }
+                    35% { clip-path: polygon(0 60%, 100% 60%, 100% 70%, 0 70%); transform: translateX(5px); }
+                    40% { clip-path: polygon(0 70%, 100% 70%, 100% 70%, 0 70%); transform: translateX(-5px); }
+                    45% { clip-path: polygon(0 80%, 100% 80%, 100% 90%, 0 90%); transform: translateX(5px); }
+                    50% { clip-path: polygon(0 90%, 100% 90%, 100% 100%, 0 100%); transform: translateX(-5px); }
+                    55% { clip-path: polygon(0 90%, 100% 90%, 100% 100%, 0 100%); transform: translate(0px, 0px); opacity: 0.6;}
+                    56% { clip-path: polygon(0 90%, 100% 90%, 100% 100%, 0 100%); transform: translate(0px, 0px); opacity: 0;}                                                                   
+                    100% {clip-path: polygon(0 90%, 100% 90%, 100% 100%, 0 100%); transform: translate(0px, 0px); opacity: 0;}
+                    
+                }     
+            }
+        }
+    }
+}
+
+.menu.menu-open, .menu-front-page.menu-open{
+    
+    nav{
+        
+        ul{
+            padding-left: 70px;
+            padding-top: 40px;
+            height: 100vh;
+            margin-top: 2%;
+            margin-left: 3%;
+            
+            li{
+                a{
+                    font-size: 5rem;
+                }
+            }
+        }
+    }
+}

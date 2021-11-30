@@ -1,0 +1,128 @@
+body{
+    main{
+        .front-page-triangl-graphic{
+            .front-page-heading{
+                font-size: 5rem;
+
+            }
+            .front-page-text{
+                font-size: 2.5rem;
+            }
+            .triangle{
+                height: 300px;
+                width: 300px;
+            }
+        }
+    }
+    .computer{
+        height: 200px;
+        width: 220px;
+    }
+
+    .sun{
+        height: 300px;
+        width: 300px;
+        top: 27%;
+    }
+    @keyframes line-1 {
+            
+        from{ 
+            transform: translateY(0) scaleY(5);  
+            opacity: 1; 
+        }
+        to{ 
+            transform: translateY(-150px) scaleY(.2);  
+            opacity: 0; 
+        }
+        50%{
+            opacity: .5;
+        }
+    }
+    
+    @keyframes line-2 {
+        from{ 
+            transform: translateY(0) scaleY(5);  
+            opacity: 1; 
+        }
+        to{ 
+            transform: translateY(-150px) scaleY(.2);  
+            opacity: 0; 
+        }
+        50%{
+            opacity: .5;
+        }
+    }
+    
+    @keyframes line-3 {
+        from{ 
+            transform: translateY(0) scaleY(5);  
+            opacity: 1; 
+        }
+        to{ 
+            transform: translateY(-150px) scaleY(.2);  
+            opacity: 0; 
+        }
+        50%{
+            opacity: .5;
+        }
+    }
+    
+    @keyframes line-4 {
+        from{ 
+            transform: translateY(0) scaleY(5);  
+            opacity: 1; 
+        }
+        to{ 
+            transform: translateY(-150px) scaleY(.2);  
+            opacity: 0; 
+        }
+        50%{
+            opacity: .5;
+        }
+    }
+    
+    @keyframes line-5 {
+        from{ 
+            transform: translateY(0) scaleY(5);  
+            opacity: 1; 
+        }
+        to{ 
+            transform: translateY(-150px) scaleY(.2);  
+            opacity: 0; 
+        }
+        50%{
+            opacity: .5;
+        }
+    }
+
+    .background-img{
+        background-size: 5% 5%, 3% 3%;
+    }
+    @keyframes moving-grid {
+        0% {
+            transform: perspective(50vh) rotateX(60deg) translateZ(10px)
+            translateY(0%);
+        }
+        100% {
+            transform: perspective(50vh) rotateX(60deg) translateZ(10px)
+            translateY(5%);
+        }
+    }
+}
+
+.menu.menu-open, .menu-front-page.menu-open{
+    nav{
+        ul{
+            padding-left: 70px;
+            padding-top: 40px;
+            height: 100vh;
+            margin-top: 5%;
+            margin-left: 3%;
+            li{
+                a{
+                    font-size: 4rem;
+                }
+            }
+        }
+    }
+}

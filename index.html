@@ -1,0 +1,70 @@
+<!doctype html>
+<html class="no-js" lang="sv">
+<head>
+<meta charset="utf-8">
+    <title>Kirill Missarov - Framtida Front end Utvecklare</title>
+    <meta name="description" content="En CV sida under konstruktion, för en Front End student.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Kirill Missarov - Framtida Front end Utvecklare">
+    <meta property="og:description" content="Om mig och mina erfarenheter samt mina coola projekt">    
+    <meta property="og:image" content="https://u.photofunia.com/1/results/c/f/cf7zOHSCAmoV8uYrnnupJg_r.jpg">
+    <meta property="og:url" content="">
+    <link rel="icon" href="favicon.ico">
+    <link rel="apple-touch-icon" href="icon.png">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&family=Yellowtail" rel="stylesheet"> 
+</head>
+
+<!--Denna sida är minimalistisk med flit. Osäker om det är en "right move", vill se hur det kommer att kännas efter att CSSen är aplicerad.-->
+<body class="front-page-body">
+    
+        <div class="menu-front-page" id="hamburger-front-page">
+            <span class="buttonLine"></span>
+            <span class="buttonMiddleLine"></span>
+            <span class="buttonLine"></span>
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="hem">Hem</a></li>
+                    <li><a href="om.html" class="om">Om</a></li>
+                    <li><a href="CV.html" class="cv">CV</a></li>
+                <!--<li><a href="Portfolio.html">Por<span class="t">t</span>folio</a></li>--> 
+                    <li><a href="Kontaktinfo.html" class="kontakt">Kon<span class="t">t</span><span class="a">a</span>k<span class="t">t</span></a></li>
+                </ul>
+            </nav>
+            <div class="menu-bg"></div>
+        </div>
+        <main>
+            <section class="front-page-triangl-graphic">
+                <h1 class="front-page-heading">Kirill M</h1>
+                <p class="front-page-text">vs. front-end development </p>
+                <div class="triangle"></div>
+            </section>
+        </main>
+        <div class="sun">
+            <span class="line1"></span>
+            <span class="line2"></span>
+            <span class="line3"></span>
+            <span class="line4"></span>
+            <span class="line5"></span>        
+        </div>
+        <div class="bg-img-wrapper">
+            <div class="background-img"></div>
+        </div>
+        <div class="floor"></div>
+        <div class="mountain-front"></div>
+        <div class="mountain-back"></div>
+        <div class="computer"></div>
+    
+    <script>
+        const menuBtn = document.querySelector('#hamburger-front-page');
+        menuBtn.addEventListener('click', () => {
+            menuBtn.classList.toggle('menu-open');
+        });
+    </script>
+</body>
+
+</html>

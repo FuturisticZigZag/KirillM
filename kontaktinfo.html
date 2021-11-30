@@ -1,0 +1,71 @@
+<!doctype html>
+<html class="no-js" lang="sv">
+<head>
+    <meta charset="utf-8">
+    <title>Kontaktinfo - Kirill Missarov: Framtida Front end Utvecklare</title>
+    <meta name="description" content="En CV sida under konstruktion, för en Front End student.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Kirill Missarov - Framtida Front end Utvecklare">
+    <meta property="og:description" content="Mina kontaktuppgifter">    
+    <meta property="og:image" content="https://u.photofunia.com/1/results/c/f/cf7zOHSCAmoV8uYrnnupJg_r.jpg">
+    <meta property="og:url" content="">
+    <link rel="icon" href="favicon.ico">
+    <link rel="apple-touch-icon" href="icon.png">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Roboto:wght@300" rel="stylesheet"> 
+    <script src="https://kit.fontawesome.com/fbfb172ff0.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="kontakt-body">
+
+
+    <div class="menu" id="hamburger">
+        <span class="buttonLine"></span>
+        <span class="buttonMiddleLine"></span>
+        <span class="buttonLine"></span>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="hem">Hem</a></li>
+                <li><a href="om.html" class="om">Om</a></li>
+                <li><a href="CV.html" class="cv">CV</a></li>
+            <!--<li><a href="Portfolio.html">Por<span class="t">t</span>folio</a></li>--> 
+                <li><a href="Kontaktinfo.html" class="kontakt">Kon<span class="t">t</span><span class="a">a</span>k<span class="t">t</span></a></li>
+            </ul>
+        </nav>
+        <div class="menu-bg"></div>
+    </div>
+
+    <header>
+        <h1 class="kontakt">Kontakta</h1> 
+    </header>
+
+    <main>        
+        <address>
+            <ul>
+                <li><i class="fas fa-envelope-open-text"></i>email@emailsite.com</li>
+                <li><i class="fas fa-phone"></i>070 123 456 78</li>
+                <li><a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin"></i>LinkedIn profil</a></li>            
+            </ul>
+        </address>
+        <!--
+        <img src="img/meeting.jpg" alt="Hand in a form of a phone with the text'call me on top'" width="400" height="auto">
+        -->
+        <form>
+            <!--<br> ska bort sen och fixas med CSS. Orkar inte hur extremt fult det ser ut, utan <br>-->
+            <label>Det går också bra att lämna ett meddelande här:</label><br>
+            <textarea placeholder="Skriv något här.. Or else..." cols="40" rows="10"></textarea><br>
+            <button type="submit">Skicka</button> 
+        </form>
+    </main>
+    <script>
+        const menuBtn = document.querySelector('#hamburger');
+        menuBtn.addEventListener('click', () => {
+            menuBtn.classList.toggle('menu-open');
+        });
+    </script>    
+</body>
+</html>
